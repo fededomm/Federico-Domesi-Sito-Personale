@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    font-family: poppins;
+    scroll-behavior: smooth;
+    background-color: #3b3f46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-weight: 300;
+    }
+/*-------section--------*/
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding:30;
+}
+/*---------navbar-------*/
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e2328;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0px 4px 15px black;   
+}
+nav ul li a{
+    height: 40px;
+    line-height: 45px;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #fff;
+    word-spacing: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+menu  { 
+    list-style: none;
+}
+
+nav ul{   
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li a:hover{
+    color: #FED053;
+}
+a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*----------section.home--------*/
+
+.home {
+    
+    margin-top: 50px;
+}
+.foto{
+    border-radius: 50%;
+    width: 120px;
+}
+.bio{
+    color: #fff;
+    font-weight: 200;
+}
+b{
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #FED053;
+}
+.saluto{
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: #FED053;
+    margin-bottom: 5px;
+}
+
+/*-------skills------*/
+
+.skills{
+    padding-bottom: 10px;
+}
+.soft{
+    text-transform: capitalize;
+    color: #FED053;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.hard{
+    text-transform: capitalize;
+    color: #FED053;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.soft-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 20px;
+    border: 1px solid #FED053;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 100%;  
+}
+.hard-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 20px;
+    border: 1px solid #FED053;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+.soft-list{
+    text-transform: capitalize;
+}
+
+/*-------------contattami------*/
+
+.contattami{
+    padding: 5px 20px 15px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contattami p:first-of-type{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.contattami p:last-of-type{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.social {
+    text-decoration: none;
+    width: 100px;
+}
+/*---------footer---------*/
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/*-------media.query------*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+    
+    /*-------home-------*/
+
+    .home{
+        margin-top: 50px;
+    }
+    .foto {
+        width: 190px;
+        margin-bottom: 20px;
+    }
+
+    /*-------skills------*/
+   
+}
+@media only screen and (min-width:601px){
+    /*-------home------*/
+    
+    .home{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 60px;
+        flex-direction: row;
+    }
+    .foto{
+        margin-right: 30px;
+        width: 250px;
+    }
+
+    /*-------skills------*/
+
+    .skills{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+        text-align: center;
+    }
+    /*--------contattami-----*/
+    .contattami{
+        padding: 30px 20px 30px 20px;
+    }
+    
+}
+
+@media only screen and (min-width: 961px){
+  
+    /*-------home------*/
+   
+    .home{
+        margin-top: 150px;
+        margin-bottom: 150px;
+        padding: 60px;
+        align-items: center;
+        flex-direction: row;
+    }
+    .foto{
+        width: 320px;
+        margin-right: 50px;
+    }
+    .bio{
+        margin-left: 5px;
+        margin-right: 60px;
+    }
+
+    /*-------skills------*/
+    .skills{
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+
+}
