@@ -11,3 +11,6 @@ ho inserito una media query per ridimensionare le incone dei social in un range 
         margin: 20 0 20 0;
     }<br>
 }
+
+10/01/2022<br>
+Modifiche alla Bio.
