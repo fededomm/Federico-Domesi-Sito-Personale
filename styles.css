@@ -240,7 +240,10 @@ b{
     .home{
         margin-top: 150px;
         margin-bottom: 150px;
-        padding: 60px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 180px;
+        padding-right: 180px;
         align-items: center;
         flex-direction: row;
     }
